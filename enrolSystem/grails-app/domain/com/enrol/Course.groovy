@@ -13,10 +13,16 @@ int numberOfStudents
 double tuitionFees
 String studyMode
 
+double calculateFees(){
+
+4*tuitionFees
+
+}
+
     static constraints = {
 
-title blank:false, nullable:false
 department blank:false, nullable:false
+title blank:false, nullable:false
 leader blank:false, nullable:false
 code blank:false, nullable:false
 numberOfStudents blank:false, nullable:false, min:20, max:60

@@ -17,7 +17,6 @@ tuitionFees:9000,
 studyMode:'full-time'
 ).save()
 
-
 def engineering = new Course(
 title:'BSc Hon Engineering',
 code:'ENG384',
@@ -31,6 +30,14 @@ tuitionFees:9000,
 studyMode:'full-time'
 ).save()
 
+def LynneDawson = new Lecturer(
+fullName:'Lynne Dawson',
+post:'Course Leader',
+subject:'BSc Computing',
+lecturerEmail:'lynne.dawson@shu.ac.uk',
+office:'Computing',
+bio:'''BSc Computing course leader at Sheffield Hallam University'''
+).save()
 
 
 

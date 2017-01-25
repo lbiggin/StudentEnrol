@@ -15,8 +15,12 @@ class StudentSpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
-        expect:"fix me"
-            true == false
+    void toString() {
+
+when: "A student has name, studentID and course"
+def janet=new Student(name: 'Janet Taylor', studentID: '45907812', course: 'BSc Hon Engineering')
+then: "The toString method will merge them"
+janet.toString()=='Janet Taylor, 45907812, BSc Hon Engineering'
+
     }
 }
